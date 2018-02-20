@@ -1,4 +1,6 @@
 def prime?(number)
   number >= 1
-  factors = (1..number)
+  primes = (1..number).select do
+    puts |n| number % n == 0
+  end
 end
